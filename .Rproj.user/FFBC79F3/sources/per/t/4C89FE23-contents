@@ -1,0 +1,106 @@
+---
+title: "Creating Windows"
+author: "Ryan Arias Delafosse"
+date: "2/12/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Creating Windows
+
+This is the file to show how the windows of three years were created for the purposes of looking at change over time.
+
+The current links are LOCAL to Ryan's computer, so it's probably a good idea to make them URL links later.
+
+## Load Libraries
+
+```{r load libraries}
+# Load library
+library(data.table)
+library(readr)
+library(ggplot2)
+```
+
+## 2007-2009 Windows
+
+```{r 2007-2009 Window, echo=FALSE}
+
+# Get a List of all files in directory named with a key word, say all `.csv` files
+filenames <- list.files("/Users/ryan/De Vinci/Parcours R&D 2019-2020 - Sujet_2_Détection d’évolution de parcours sur des données géo-temporelles/articles/Ryan/Analysis/Data/Windows/2007-200909", pattern="*.csv", full.names=TRUE)
+
+ # read and row bind all data sets
+data <- rbindlist(lapply(filenames,fread))
+```
+
+^^ Above did not work for now. Moving on...
+
+```{r Importing test year}
+# Import Test Year
+data_2007 <- read_delim("Data/Windows/2007-2009/FlickrPaths_2007.csv", 
+                               "\t", escape_double = FALSE, trim_ws = TRUE)
+data_2008 <- read_delim("Data/Windows/2007-2009/FlickrPaths_2008.csv", 
+                               "\t", escape_double = FALSE, trim_ws = TRUE)
+data_2009 <- read_delim("Data/Windows/2007-2009/FlickrPaths_2009.csv", 
+                               "\t", escape_double = FALSE, trim_ws = TRUE)
+```
+```{r merging}
+#merging
+mytempdata <- merge(data_2007, data_2008)
+data_2007.2009 <- merge(mytempdata, data_2009)
+```
+
+^^ Above did not work either
+
+## Reviewing Data
+
+```{r testing 2007 data}
+summary(data_2007)
+str(data_2007)
+```
+
+## Filtering Data
+
+```{r 2007 filter users}
+## User must appear more than once
+filtered_2007 <- data_2007%>%
+                      group_by(owner_id) %>%
+                      filter(n()>2)
+```
+
+
+```{r filter by time}
+
+
+
+```
+
+
+
+
+
+
+## Trying to map
+
+```{r 2007 map}
+# Load libraries
+library(rworldmap)
+library(ggmap)
+register_google(key = "AIzaSyA5RyFB0KqjBQZ2o-uOUcGYK8jjb4v9eYM")
+google_key()
+ggmap_show_api_key()
+
+# Map Bordeaux
+map <- get_map(location = 'Bordeaux', zoom = 12)
+
+# Plot data points
+ggmap(map) +
+  geom_point(
+    aes(x = filtered_2007$longitude, y = filtered_2007$latitude ),
+    data = filtered_2007, alpha = .5
+    )
+```
+
+

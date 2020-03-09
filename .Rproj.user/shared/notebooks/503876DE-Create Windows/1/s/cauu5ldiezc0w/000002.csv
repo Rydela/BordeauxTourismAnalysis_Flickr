@@ -1,0 +1,8 @@
+"0","groups  <- data_2016to2018 %>% filter(cluster != 0)"
+"0","noise  <- data_2016to2018 %>% filter(cluster == 0)"
+"0",""
+"0",""
+"0","ggplot(data_2016to2018, aes(x = longitude, y = latitude, alpha = 0.5)) + "
+"0","  geom_point(aes(fill = ""grey""), noise) +"
+"0","  geom_point(aes(colour = as.factor(cluster)), groups,"
+"0","             size = 3)"

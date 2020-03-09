@@ -1,0 +1,5 @@
+"0","## User must appear more than once"
+"0","filtered_merged <- merged%>%"
+"0","                      group_by(owner_id) %>%"
+"0","                      filter(n()>2)%>%"
+"0","                      arrange(owner_id,date_taken)"

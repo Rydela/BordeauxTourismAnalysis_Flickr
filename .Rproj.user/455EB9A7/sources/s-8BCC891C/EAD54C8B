@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581540271016.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EAD54C8B",
+    "lastKnownWriteTime" : 1583751414,
+    "last_content_update" : 1583751414455,
+    "path" : "C:/Users/Ryan/De Vinci/Parcours R&D 2019-2020 - Ryan/Analysis/Create Windows.Rmd",
+    "project_path" : "Create Windows.Rmd",
+    "properties" : {
+        "cursorPosition" : "27,24",
+        "last_setup_crc32" : "8BCC891Cbb338d19",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

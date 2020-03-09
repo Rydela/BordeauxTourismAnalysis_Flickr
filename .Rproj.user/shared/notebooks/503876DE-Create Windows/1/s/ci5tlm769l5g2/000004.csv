@@ -1,0 +1,18 @@
+"0",""
+"0","# Get a List of all files in directory named with a keyword, say all `.csv` files"
+"0",""
+"0","library(readr)"
+"0","merged <- read_delim(""Data/Windows/Merged/merged.csv"", "
+"0","    ""\t"", escape_double = FALSE, col_types = cols(image_id = col_number(), "
+"0","        latitude = col_number(), longitude = col_number()), "
+"0","    trim_ws = TRUE)"
+"2","39 parsing failures.
+ row       col expected    actual                             file
+ 966 image_id  a number image_id  'Data/Windows/Merged/merged.csv'
+ 966 latitude  a number latitude  'Data/Windows/Merged/merged.csv'
+ 966 longitude a number longitude 'Data/Windows/Merged/merged.csv'
+6087 image_id  a number image_id  'Data/Windows/Merged/merged.csv'
+6087 latitude  a number latitude  'Data/Windows/Merged/merged.csv'
+.... ......... ........ ......... ................................
+See problems(...) for more details.
+"

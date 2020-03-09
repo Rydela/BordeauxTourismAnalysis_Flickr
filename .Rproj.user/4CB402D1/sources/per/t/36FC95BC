@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581588953706.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "757755347",
+    "id" : "36FC95BC",
+    "lastKnownWriteTime" : 1581607936,
+    "last_content_update" : 1583322095388,
+    "path" : "~/De Vinci/Parcours R&D 2019-2020 - Sujet_2_Détection d’évolution de parcours sur des données géo-temporelles/articles/Ryan/Analysis/Create Windows.Rmd",
+    "project_path" : "Create Windows.Rmd",
+    "properties" : {
+        "cursorPosition" : "73,50",
+        "last_setup_crc32" : "6A28054Fbb338d19",
+        "scrollLine" : "51"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
