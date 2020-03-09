@@ -1,0 +1,36 @@
+"0","# Load library"
+"0","library(dplyr)"
+"2","Registered S3 method overwritten by 'dplyr':
+  method           from
+  print.rowwise_df     
+"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(readr)"
+"0","library(ggplot2)"
+"0","library(dbscan)"
+"2","package ‘dbscan’ was built under R version 3.6.3"
+"0","library(leaflet)"
+"2","package ‘leaflet’ was built under R version 3.6.3"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"

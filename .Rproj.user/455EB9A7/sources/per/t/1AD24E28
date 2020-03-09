@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583775788225.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1AD24E28",
+    "lastKnownWriteTime" : 1583775654,
+    "last_content_update" : 1583775788225,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5EE17D27",
+        "caption" : "merged",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=merged&cache_key=5EE17D27",
+        "displayedObservations" : "153890",
+        "environment" : "",
+        "expression" : "merged",
+        "object" : "merged",
+        "preview" : "0",
+        "totalObservations" : "153890",
+        "variables" : "7"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

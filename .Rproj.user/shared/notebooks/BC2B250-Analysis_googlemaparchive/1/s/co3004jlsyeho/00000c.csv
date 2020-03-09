@@ -1,0 +1,8 @@
+"0","m <- leaflet() %>%"
+"0","  addTiles() %>%  # Add default OpenStreetMap map tiles"
+"0","  addCircleMarkers(lng= data_2016to2018$longitude, "
+"0","                   lat= data_2016to2018$latitude,"
+"0","                   weight = 1, "
+"0","                   radius = 2, "
+"0","                   fillOpacity = 0.7)"
+"0","m  # Print the map"

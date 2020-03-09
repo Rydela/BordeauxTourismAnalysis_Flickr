@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583778922593.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "583A547A",
+    "lastKnownWriteTime" : 2900388870856,
+    "last_content_update" : 1583778922593,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "1fec0ed8585e40ce8c3faa5d868e2592",
+        "name" : "dbs_merged",
+        "title" : "dbs_merged"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

@@ -1,8 +1,0 @@
-"0","## User must appear more than once"
-"0","filtered_2007 <- data_2007%>%"
-"0","                      group_by(owner_id) %>%"
-"0","                      filter(n()>2)%>%"
-"0","                      arrange(owner_id,date_taken)"
-"2","Error in data_2007 %>% group_by(owner_id) %>% filter(n() > 2) %>% arrange(owner_id,  : 
-  could not find function ""%>%""
-"

@@ -1,0 +1,6 @@
+"0",""
+"0","## User must appear more than once"
+"0","data_2016to2018 <- data_2016to2018%>%"
+"0","                      group_by(owner_id) %>%"
+"0","                      filter(n()>2)%>%"
+"0","                      arrange(owner_id,date_taken)"
